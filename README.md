@@ -115,3 +115,8 @@ ____________________________________________
 			     }
 ```  
 ОТВЕТ:
+let resourcesObj = resources.reduce((acc, item, index) => {
+    acc[index] =item
+    return acc;
+    }, {});
+    console.log(resourcesObj);
